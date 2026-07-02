@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL: import.meta.env.VITE_API_URL || ""https://restaurant-backend.onrender.com/api"",
 });
 
 // Attach the JWT token (if present) to every outgoing request
